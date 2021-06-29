@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header */
+.container{
+    align-content: center;
+    height: 20vh;
+}
+.container img{
+    margin: 0px 35%;
+    height: 20vh;
+    width: 30%;
+}
+/* content */
+h1{
+    margin: 0px 20%;
+}
+h3{
+    font-size: x-large;
+    margin: 70px 10% 20px 10%;
+}
+/* information */
+.navbar{
+    display: flex;
+}
+.navbar table{
+    margin: 3% 0px 0px 10%;
+}
+th{
+    width: 13vw;
+    text-align: left;
+}
+.navbar img{
+    margin-left: 10%;
+}

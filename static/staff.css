@@ -1,0 +1,31 @@
+/* left pane */
+
+.content{
+    display: flex;
+}
+
+/* main content */
+.bottom{
+    padding: 20px;
+    background: url("../static/homain.jpg") no-repeat ;
+    background-size: 100%;
+    width: 100%;
+}
+h1{
+    color: white;
+    margin: 20px;
+    padding-left: 40%;
+}
+table{
+    border: 2px solid red;
+    color: yellowgreen;
+    margin: 0px 10%;
+    width: 80%;
+    text-align: center;
+
+}
+th{
+    color: yellow;
+    border-bottom: 2px solid red;
+
+}

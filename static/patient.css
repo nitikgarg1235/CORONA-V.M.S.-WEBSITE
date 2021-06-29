@@ -1,0 +1,75 @@
+/* left pane */
+.left{
+    padding-left: 50px; 
+    padding-top: 50px;
+    width: 20%;
+    height:398px;
+    background-color: rgb(248, 224, 6);
+    text-decoration: none;
+    color: rgb(205, 5, 255);
+}
+
+.left li{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main */
+.content{
+    display: flex;
+}
+
+.aptmt{
+    background: url("../static/homain.jpg") no-repeat ;
+    background-size: cover;
+    align-content: center;
+    width:80vw;
+}
+.pform{
+    color: white;
+    margin-left: 32.5%; ;
+    width: 40%;
+    margin-top: 17px;
+}
+.pform h1{
+    font-size: 32px;
+    font-family: 'Heebo', sans-serif;
+    display: inline-block;
+    border-bottom: 4px solid  rgb(248, 224, 6);;
+    padding-bottom: 6px;
+}
+.box{
+    width:89%;
+    margin: 3px 22px;
+    border-bottom: 2px solid  rgb(248, 224, 6);;
+    
+}
+input{
+    width: 75%;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 3.5px 10px;
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    border: 2px solid  rgb(248, 224, 6);
+    margin: 10px 35%;
+    border-radius: 7px;
+    font-size: 15px;
+    background: none;
+    padding: 6px 21px;
+}
+.btn:hover{
+    font-weight: bold;
+    opacity: 0.8;
+    color:purple; 
+    background: rgb(248, 224, 6); 
+    
+}
+.box i{
+    color: white;
+}

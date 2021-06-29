@@ -1,0 +1,56 @@
+/* left pane */
+
+.content{
+    display: flex;
+}
+
+/* main content */
+.bottom{
+    padding: 20px;
+    background: url("../static/homain.jpg") no-repeat ;
+    background-size: 100%;
+    width: 100%;
+}
+/* background */
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    color: white;
+    margin: 10px;
+    padding-left: 20px;
+}
+.form{
+    width: 100%;
+    margin: 3px 22px;
+}
+input{
+    margin-top: 20px;
+    border: 2px solid rgb(248, 224, 6);
+    width: 75%;
+    color: white;
+    background: none;
+    outline: none;
+    padding: 3.5px 10px;
+    border-radius: 5px;
+}
+.btn{
+    align-content: center;
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    border: 2px solid  rgb(248, 224, 6);
+    margin: 10px 31%;
+    border-radius: 7px;
+    font-size: 15px;
+    background: none;
+    padding: 6px 21px;
+}
+
+h4{
+    display: inline-block;
+    margin: 52px;
+    padding-top: 148px;
+    font-family: 'Roboto', sans-serif;
+    color:yellow;
+    opacity: 1;
+}

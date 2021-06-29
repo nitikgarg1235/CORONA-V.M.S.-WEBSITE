@@ -1,0 +1,23 @@
+/* left pane */
+
+.content{
+    display: flex;
+}
+
+/* main content */
+.bottom{
+    padding: 20px;
+    background: url("../static/homain.jpg") no-repeat ;
+    background-size: 100%;
+}
+/* backgroun */
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    color: white;
+    opacity: 1;
+}
+p{
+    color: wheat;
+    opacity: 1;
+}

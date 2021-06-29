@@ -1,0 +1,18 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/gen.css
+
+block content
+    .content
+        ul.left
+            li
+                a(href='./patient') book an appointment
+            li
+                a(href='./gen') generate certifcate
+        nav.bottom
+            h1 Enter your aadhaar card number 
+            form(action="/certi", method="post",class="myForm") 
+                input#idno(type='text', class="box", name='idno', placeholder='12 digit number')
+                button(class="btn") GENERATE

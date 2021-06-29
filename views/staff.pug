@@ -1,0 +1,29 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/staff.css
+
+block content
+    .content
+        .image
+            img(src='/static/homebg.jpg', alt='125px')    
+        nav.bottom
+            h1 LIST       
+            .table-data
+                table
+                    tr
+                        th Name
+                        th Age
+                        th ID-no.
+                        th Gender
+                        th Phone
+                        th Date
+                    each data in result
+                        tr
+                            td=data.name
+                            td=data.age
+                            td=data.idno
+                            td=data.gender
+                            td=data.phone
+                            td=data.date

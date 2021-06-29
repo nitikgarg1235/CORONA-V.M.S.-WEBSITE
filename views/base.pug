@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title CVMS  
+    style 
+      include ../static/base.css
+    link(rel='preconnect', href='https://fonts.gstatic.com')
+    link(href='https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap', rel='stylesheet')
+    block scripts 
+    block style 
+  body
+    .container
+      .navbar
+        .logo
+            a(href='./'): img(src='/static/honav.png', alt='125px')      
+        nav.top
+          ul
+            li #[a(href='/') Home]               
+            li #[a(href='/pinfo') Patient]             
+            li #[a(href='/staff') Staff]             
+            li #[a(href='/faq') FAQ]
+    block content
+      

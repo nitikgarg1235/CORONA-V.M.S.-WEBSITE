@@ -1,0 +1,19 @@
+extends base.pug
+
+//- block scripts
+//-     script(src='/static/home.js')
+
+block style 
+    style 
+        include ../static/thanks.css
+
+block content
+    .content
+        ul.left
+            li
+                a(href='./patient') book an appointment
+            li
+                a(href='./gen') generate certifcate    
+        nav.bottom
+            h1 Registered        
+            P #[ You ar registered for vaccinated. kindly bring your aadhaar card for vaccination on registered date.Stay safe and stay happy.]

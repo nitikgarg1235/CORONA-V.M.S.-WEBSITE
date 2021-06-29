@@ -1,0 +1,24 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/patient.css
+
+block content
+    .content
+        ul.left
+            li
+                a(href='./patient') book an appointment
+            li
+                a(href='./gen') generate certifcate
+        nav.aptmt
+            .pform
+                h1 Register for vaccination
+                form(action="/patient", method="post",class="myForm") 
+                    input#name(type='text', class="box", name='name', placeholder='Enter your Full Name as in mentioned id')
+                    input#age(type='number', class="box", name='age' placeholder='Enter your age')
+                    input#idno(type='text', class="box", name='idno' placeholder='Enter your aadhaar card number')
+                    input#gender(type='text', class="box", name='gender' placeholder='Enter your gender')
+                    input#phone(type='text', class="box", name='phone' placeholder='Enter your phone number')
+                    input#date(type='date', class="box", name='date' placeholder='Enter the vaccination date')
+                    button(class="btn") SUBMIT

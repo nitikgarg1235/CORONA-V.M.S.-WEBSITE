@@ -1,0 +1,19 @@
+extends base.pug
+
+//- block scripts
+//-     script(src='/static/home.js')
+
+block style 
+    style 
+        include ../static/Pinfo.css
+
+block content
+    .content
+        ul.left
+            li
+                a(href='./patient') book an appointment
+            li
+                a(href='./gen') generate certifcate    
+        nav.bottom
+            h1 ARE YOU VACCINATED?        
+            P #[ if you are not vaccinated,there will be less immunity or no antibody against corona virus present in your body.Kindly book your appointment for vaccination as soon as possible. There is a option for booking slot in left pane of window. After successful registration don't forget to get certificate for it.]
